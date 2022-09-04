@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --dark-blue: #1e40af;
+    --light-blue: #dbeafe;
+}
+
+img{
+    width: 100px;
+}
+
+h1 img{
+    width: 60px;
+}
+
+
+h1 {
+    text-align: center;
+    color: var(--dark-blue);
+    padding: 1rem;
+    margin-top: 50px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input,
+label {
+    display: block;
+    padding: 1rem;
+}
+
+input {
+    width: 100%;
+    margin: auto;
+    font-size: large;
+    padding: 0.5rem;
+    border: 2px solid var(--dark-blue);
+    border-radius: 0.5rem;
+    background-color: var(--light-blue);
+
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+button {
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#result {
+    font-family: cursive;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+#error {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: var(--light-blue);
+    text-align: center;
+    padding: 1rem 0rem 0rem 1rem;
+    margin-top: 3rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-list {
+    padding-inline-start: 0px;
+}
+
+.portfolio {
+    text-decoration: none;
+    color: var(--dark-blue)
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+   p{
+    margin-bottom: 5rem;
+   }
+  }
